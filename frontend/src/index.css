@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  height: 100%;
+}
+
+img{
+  max-height: 100%;
+}
+input, textarea ,select{
+    @apply border-2  rounded-lg p-1 w-full 
+}
+.btn{
+  @apply p-3  bg text-white rounded-lg
+}
+table.basic tr td {
+  @apply border border-gray-300 p-2
+}
+table.basic thead tr td {
+  @apply bg
+}
+table.basic  {
+  @apply w-full
+ 
+}
+.bg{
+background: rgb(85, 144, 63);
+}
+.bg2{
+  background: rgb(94, 184, 62);
+  }
+
+.bg3{
+    background: rgba(189, 121, 33, 0.815);
+    }
+
+
+
