@@ -2,7 +2,7 @@ const asyncHandler = require('express-async-handler');
 const Transaction = require('../models/Transaction');
 const Enrollement = require('../models/course_content/Enrollement');
 const Chat = require('../models/ChatModel');
-const stripe = require('stripe')("sk_test_51ONdBfJSgJkn82PwKVbptxY22atxhdXBkNufLsIAHbm8yzJPFeiop67FBCqdL8KQ35G5lineRnwfUkZ9pA53l5gu00DJrJP0kO");
+const stripe = require('stripe')("");
 
 
 
